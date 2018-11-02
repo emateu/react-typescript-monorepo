@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "sourceMap": true
+  }
+}
