@@ -6,4 +6,5 @@
 - React
 - Styled-Components
 - TSLint
+- Storybook
 - Create React App 
