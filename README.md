@@ -5,6 +5,7 @@
 - TypeScript
 - React
 - Styled-Components
+- Jest + Enzyme
 - TSLint
 - Storybook
 - Create React App 
