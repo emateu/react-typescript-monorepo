@@ -1,4 +1,4 @@
-import { GlobalStyle, Example } from "@rtsm/common";
+import { Example, GlobalStyle } from "@rtsm/common";
 import theme from "@rtsm/common/dist/themes/default";
 import React, { Component, Fragment } from "react";
 import { ThemeProvider } from "styled-components";

@@ -32,6 +32,8 @@
   "devDependencies": {
     "@storybook/react": "^4.0.2",
     "babel-loader": "^8.0.4",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "stylelint": "^9.7.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-config-styled-components": "^0.1.1",
