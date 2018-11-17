@@ -1,0 +1,9 @@
+{
+  "app.title": "[ES] Create React App Boilerplate - CRAB",
+  "app.copyright": "[ES] ©2018. Create React App Boilerplate.",
+  "app.loading": "Cargando...",
+  "app.login": "Ingresar",
+  "app.logout": "Salir",
+  "app.request.failure": "¡Oops, algo salió mal! Por favor intente nuevamente.",
+  "app.invalid_date": "La fecha seleccionada no es válida"
+}

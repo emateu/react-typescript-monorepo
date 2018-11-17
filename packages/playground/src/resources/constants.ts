@@ -1,0 +1,18 @@
+const REACT_APP_LANG_DEFAULT: any = process.env.REACT_APP_LANG_DEFAULT;
+const REACT_APP_SENTRY_URL: any =  process.env.REACT_APP_SENTRY_URL;
+const REACT_APP_GA_TRACKING_ID: any = process.env.REACT_APP_GA_TRACKING_ID;
+const REACT_APP_THEME: any = process.env.REACT_APP_THEME;
+
+interface IEnv {
+  GA_TRACKING_ID: string;
+  LANG_DEFAULT: string;
+  SENTRY_URL: string;
+  THEME: string;
+}
+
+export const ENV: IEnv = {
+  GA_TRACKING_ID: REACT_APP_GA_TRACKING_ID,
+  LANG_DEFAULT: REACT_APP_LANG_DEFAULT,
+  SENTRY_URL: REACT_APP_SENTRY_URL,
+  THEME: REACT_APP_THEME,
+};

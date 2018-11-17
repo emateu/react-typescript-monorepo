@@ -6,20 +6,20 @@ const globalStyle = createGlobalStyle`
 
   html,
   body {
-    color: ${(props) => props.theme.colors.dark};
-    font: ${(props) => props.theme.font.regular} 16px/1 ${(props) => props.theme.font.family};
-    background: #eee;
+    color: ${props => props.theme.app.fontColor};
+    font: ${props => props.theme.font.medium} 16px/1 ${props => props.theme.font.family};
+    background: ${props => props.theme.app.backgroundColor};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   ::selection {
-    color: ${(props) => props.theme.colors.light};
-    background: ${(props) => props.theme.colors.primary};
+    color: ${props => props.theme.app.lightColor};
+    background: ${props => props.theme.app.primaryColor};
   }
 
   strong {
-    font-weight: ${(props) => props.theme.font.bold};
+    font-weight: ${props => props.theme.font.bold};
   }
 `;
 
